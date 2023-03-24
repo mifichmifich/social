@@ -1,0 +1,25 @@
+.header_logo {
+    width: 80px;
+    position: absolute;
+}
+
+.header_title {
+    /* display: inline-block; */
+    animation: title_a 2s ease 0s infinite;
+    text-align: center;
+}
+
+@keyframes title_a {
+    0% {
+        text-shadow: 0px 0px 0px aqua;
+    }
+
+    50% {
+        text-shadow: 0px 0px 10px aqua;
+        transform: scale(1.05) rotateY(90deg);
+    }
+
+    100% {
+        text-shadow: 0px 0px 0px aqua;
+    }
+}

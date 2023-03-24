@@ -1,0 +1,13 @@
+.navbar_list {
+    color: white;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.navbar_list a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}

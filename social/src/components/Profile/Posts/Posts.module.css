@@ -1,0 +1,37 @@
+.addPost_container {
+    height: 70px;
+    padding-left: 300px;
+    /*Внутренний отступ*/
+    padding-top: 25px;
+    /*Внутренний отступ сверху*/
+
+}
+
+.addPost {
+    display: flex;
+    column-gap: 5px;
+
+}
+
+.addPost input {
+    width: 400px;
+
+}
+
+.addPost input:focus {
+    background-color: #262626;
+    color: white;
+}
+
+.addPost button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.addPost button:hover {
+    background-color: #262626;
+    border: 2px solid grey;
+    color: white;
+}
