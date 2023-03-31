@@ -4,7 +4,7 @@ import { useState } from 'react';
 function ProfileInfo(props) {
     let [status, setStatus] = useState('Hello World');
     let [edit, setEdit] = useState(false)
-
+    let some
     return (
         <div className={style.profileInfo}>
             <div className={style.ProfileInfo_container}>
