@@ -28,6 +28,7 @@ body {
   grid-area: n;
   background-color: #262626;
   color: white;
+  position: relative;
 }
 
 .header {

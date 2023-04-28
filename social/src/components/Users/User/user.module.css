@@ -1,0 +1,89 @@
+.user {
+    border: 2px solid black;
+    min-height: 150px;
+    border-radius: 5px;
+    display: flex;
+    margin-bottom: 15px;
+    width: 70%;
+}
+
+.user_left {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    min-height: 100%;
+    justify-content: center;
+    padding: 0 10px 0 10px;
+    align-items: center;
+
+}
+
+.user_left button {
+    padding: 5px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+
+.user_left button:hover {
+    background-color: #262626;
+    border: 2px solid grey;
+    color: white;
+}
+
+.user_left img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.user_right {
+    width: 80%;
+}
+
+.user_right_top {
+    display: flex;
+    justify-content: space-around;
+}
+
+.user_right_name {}
+
+.user_right_city {}
+
+.user_right_bottom {
+    display: flex;
+    justify-content: space-around;
+}
+
+.user_right_status {}
+
+.user_right_zipcode {}
+
+@media (max-width:950px) {
+    .user {
+        width: 100%;
+    }
+}
+
+@media(max-width:727px) {
+    .user {
+        flex-wrap: wrap;
+        /* Можно переносить на следующую строку */
+    }
+
+    .user_right_city {
+        display: none;
+    }
+
+    .user_right_zipcode {
+        display: none;
+    }
+
+    .user_right {
+        width: 60%;
+    }
+
+    .user_left {
+        width: 40%;
+    }
+}

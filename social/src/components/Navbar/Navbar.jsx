@@ -4,6 +4,7 @@ function Navbar(props) {
     console.log(style)
     return (
         <div className="navbar">
+            <input type="checkbox" className={style.navbar_toggle} />
             <ul className={style.navbar_list}>
                 {/* <li><a className={style.navbar_link} href="">Профиль</a></li>
                 <li><a className={style.navbar_link} href="">Сообщения</a></li> */}
@@ -14,6 +15,7 @@ function Navbar(props) {
                 {/* <li><a className={style.navbar_link} href="">Пользователи</a></li>
                 <li><a className={style.navbar_link} href="">Фото</a></li> */}
             </ul>
+            <button className={style.navbutton}></button>
         </div>
     )
 }
