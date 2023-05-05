@@ -1,6 +1,6 @@
 function Dialogs(props) {
     return (
-        <div>Диалог</div>
+        <div>Soon...</div>
     )
 
 }

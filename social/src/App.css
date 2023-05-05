@@ -13,26 +13,26 @@ body {
     'h h'
     'n c';
   gap: 15px;
-  grid-template-columns: 2fr 10fr;
+  grid-template-columns: auto 10fr;
   height: 100vh;
   grid-template-rows: 1fr 11fr;
 }
 
 .content {
   grid-area: c;
-  background-color: #262626;
+  background-color: #202020;
   color: white;
 }
 
 .navbar {
   grid-area: n;
-  background-color: #262626;
+  background-color: #151b19;
   color: white;
   position: relative;
 }
 
 .header {
   grid-area: h;
-  background-color: #e6e8ea;
+  background-color: #7d807d;
   height: 80px;
 }

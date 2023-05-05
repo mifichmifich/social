@@ -4,9 +4,9 @@ import { useState } from 'react';
 
 
 let postData = [
-    { message: "Hello", likes: 5, reposts: 10, id: 1 },
-    { message: "Hi", likes: 10, reposts: 15, id: 2 },
-    { message: "World", likes: 15, reposts: 20, id: 3 },
+    { message: "just a test message", likes: 5, reposts: 10, id: 1 },
+    { message: "just a test message", likes: 10, reposts: 15, id: 2 },
+    { message: "mifich is programmer :)", likes: 100000, reposts: 10000, id: 3 },
 ]
 
 

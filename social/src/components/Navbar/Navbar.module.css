@@ -6,7 +6,12 @@
     row-gap: 20px;
     padding-right: 10px;
     padding-left: 10px;
+    width: 255px;
+    transition: 0.7s;
+}
 
+.navbar_list li {
+    transition: 0.7s;
 }
 
 .navbar_list a {
@@ -31,10 +36,11 @@
     position: absolute;
     width: 100%;
     height: 5px;
-    background-color: black;
+    background-color: white;
     top: 0;
     left: 0;
     transform: rotate(45deg);
+    transition: 0.3s;
 }
 
 .navbutton::after {
@@ -42,11 +48,39 @@
     position: absolute;
     width: 100%;
     height: 5px;
-    background-color: black;
+    background-color: white;
     bottom: 0;
     left: 0;
     transform: rotate(-45deg);
+    transition: 0.3s;
 
 }
 
-.navbar_toggle {}
+.navbar_toggle:checked~button::before {
+    transform: rotate(-45deg);
+}
+
+.navbar_toggle:checked~button::after {
+    transform: rotate(45deg);
+}
+
+.navbar_toggle {
+    width: 40px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    z-index: 5;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.navbar_toggle:checked~ul {
+    width: 60px;
+
+}
+
+.navbar_toggle:checked~ul li {
+    opacity: 0;
+
+}
